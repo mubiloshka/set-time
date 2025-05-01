@@ -1,0 +1,27 @@
+
+
+   body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #e66465, #f6b73c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .clock-box {
+    display: flex;
+    gap: 20px;
+    background: #fca311;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  #clock {
+    font-size: 80px;
+    margin: 0;
+    color: #222;
+  }
+  
